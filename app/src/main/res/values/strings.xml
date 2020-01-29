@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PotholeUserAndroidApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_site_key">6Le1-9MUAAAAAJY2k4C6RuTQgWCGEbp7hhfu80pX</string>
+
+</resources>
