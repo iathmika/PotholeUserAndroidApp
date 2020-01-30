@@ -10,7 +10,6 @@ import com.example.potholeuserandroidapp.Activities.CaptchaActivity;
 import com.example.potholeuserandroidapp.Activities.HomeActivity;
 import com.example.potholeuserandroidapp.Activities.LoginActivity;
 import com.google.android.gms.safetynet.SafetyNet;
-import com.google.android.gms.safetynet.SafetyNetClient;
 
 import static com.example.potholeuserandroidapp.R.layout.activity_main;
 
@@ -31,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(MainActivity.this, HomeActivity.class));
             finish();
         }else{
-            startActivity(new Intent(MainActivity.this, CaptchaActivity.class));
+            startActivity(new Intent(MainActivity.this, LoginActivity.class));
             finish();
         }
     }

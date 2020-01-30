@@ -77,6 +77,14 @@
             android:inputType="textPassword"
             android:hint="Confirm Password"
             />
+
+        <CheckBox
+            android:id="@+id/captchacheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I am not a robot"
+            />
+
         <Button
             android:id="@+id/registerbuttonid"
             android:layout_width="match_parent"
